@@ -1,0 +1,37 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: Arial, sans-serif;
+  background: #eef2ff;
+  color: #172554;
+}
+
+.card {
+  width: min(90%, 560px);
+  padding: 40px;
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px #00000012;
+}
+
+.tag {
+  color: #2563eb;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.version {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #dbeafe;
+  border-radius: 20px;
+  font-weight: bold;
+}
